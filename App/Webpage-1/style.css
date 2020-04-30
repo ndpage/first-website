@@ -1,22 +1,52 @@
+
+h1 {
+  text-align: center;
+  text-shadow: darkkhaki;
+
+}
+
 p {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     
-    margin: 20px 0;
+  
+    margin: 20px 50px 10px 50px;
     text-align: center;
     background-color: white;
     padding: 3px 0;
     
     font-size: 24px;
   }
+  text{
+    font-size: 12px;
+  }
   
   body {
-    background-color: lightgray;
     margin: 0;
+    background-color: lightgray;
+    overflow: scroll;
   }
   
   button{
     margin: 5px;
-    width: 75px;;
+    width: 150px;
     height: 50px;
+    align-self: center;
+    border-radius: 5px;
+  }
+  .btn{
+    background-color: whitesmoke;
+    font-size: medium;
+  }
+  .button-group{
+    text-align: center;
+  }
+
+  .footer-main {
+      text-align: center;
+      font-style: italic;
+      font-size: medium;
+      
+      
+
   }

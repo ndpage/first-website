@@ -1,19 +1,53 @@
 <!DOCTYPE html> 
 <html> 
     <head> 
-        <title>Header Tag</title> 
+        <title>Bitcoin Price</title> 
+        <link rel="stylesheet" type="text/css" href="style.css">
+          <!--<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> -->  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+
     </head> 
+
     <body> 
         <article> 
             <header> 
-                <h1>This is the heading.</h1> 
-                <h4>This is the sub-heading.</h4> 
-                <p>This is the metadata.</p> 
+                <h1>Bitcoin Price</h1> 
             </header> 
-            <button type="button" class="btn">Refresh</button>
-            <p class="text">Replace me!!</p>
-            <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-
+            <div class="button-group">
+                <button type="button" class="btn" onclick="updatePrice()">Refresh</button>
+            </div>
+           
+            <p class="text">
+                
+            </p>
+            
         </article> 
+    <div class="footer-main">
+        This website was built using HTML, CSS, JavaScript, and jQuery
+    </div>
+    
     </body> 
+
+<script>    
+   /*
+   $('.btn').click(function() {
+  
+  $('.text').text('loading . . .');
+  
+  $.ajax({
+    type:"GET",
+    url:"https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT",
+    success: function(data) {
+      //var priceData = JSON.stringify(data)
+        $('.text').append('<p>' + data.symbol + " $" + data.price + '</p>');
+      },
+    dataType: 'json',
+  });
+  
+});
+*/
+</script>
+    
+
 </html>                     
