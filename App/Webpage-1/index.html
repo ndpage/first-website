@@ -10,12 +10,12 @@
     </head> 
 
     <body> 
+        <header class="header-main"> 
+            <h1>Bitcoin Price</h1> 
+        </header> 
         <article> 
-            <header> 
-                <h1>Bitcoin Price</h1> 
-            </header> 
             <div class="button-group">
-                <button type="button" class="btn" onclick="updatePrice()">Refresh</button>
+                <button type="button" class="btn" onclick="updatePrice()">Check Price</button>
             </div>
            
             <p class="text">
@@ -24,7 +24,10 @@
             
         </article> 
     <div class="footer-main">
-        This website was built using HTML, CSS, JavaScript, and jQuery
+        <footer-text class="footer-text">
+            This website was built by Nathan Page
+        </footer-text>
+        
     </div>
     
     </body> 
@@ -47,6 +50,14 @@
   
 });
 */
+$('.footer-text').hover(function() {
+    $('.footer-text').text("Yay!");
+});
+
+$('.footer-main').hover(function() {
+    $('.footer-text').text("This website was built by Nathan Page");
+});
+
 </script>
     
 

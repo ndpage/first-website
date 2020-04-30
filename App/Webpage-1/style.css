@@ -21,10 +21,13 @@ p {
     font-size: 12px;
   }
   
-  body {
+  article{
+    overflow: hidden;
+  }
+
+  body {   
     margin: 0;
     background-color: lightgray;
-    overflow: scroll;
   }
   
   button{
@@ -32,21 +35,47 @@ p {
     width: 150px;
     height: 50px;
     align-self: center;
-    border-radius: 5px;
+    border-radius: 10px;
   }
+  .header-main{
+    width: 80%;
+    height: 70px;
+
+    margin: 0px auto 2px auto;
+    border-bottom: solid;
+    border-width: 100%;
+    border-color: darkblue;
+    padding: 5px;
+  }
+
   .btn{
     background-color: whitesmoke;
     font-size: medium;
   }
   .button-group{
+    margin: 5px auto 10px auto;
     text-align: center;
+    
   }
 
   .footer-main {
-      text-align: center;
-      font-style: italic;
-      font-size: medium;
-      
-      
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    border-top: 5px;
+    border-color: black;
+    
+    background-color: darkblue;
+    margin: 0px;
+  }
+  .footer-text{
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+
+    color: white;  
+    font-style: italic;
+    font-size: medium;
 
   }
+    
