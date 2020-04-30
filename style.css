@@ -1,0 +1,22 @@
+p {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    
+    margin: 20px 0;
+    text-align: center;
+    background-color: white;
+    padding: 3px 0;
+    
+    font-size: 24px;
+  }
+  
+  body {
+    background-color: lightgray;
+    margin: 0;
+  }
+  
+  button{
+    margin: 5px;
+    width: 75px;;
+    height: 50px;
+  }
