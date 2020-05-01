@@ -6,7 +6,6 @@ function updatePrice(){
     type:"GET",
     url:"https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT",
     success: function(data) {
-      //var priceData = JSON.stringify(data)
         $('.text').prepend('<p>' + data.symbol + " $" + data.price +" as of " + currentdate + '</p>');
       },
     dataType: 'json',
