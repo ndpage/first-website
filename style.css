@@ -1,10 +1,22 @@
 
+* {
+  box-sizing: border-box;
+}
+
+body {   
+  margin: 0;
+  background-color: lightgray;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 h1 {
   text-align: center;
   text-shadow: darkkhaki;
-
 }
-
+article{
+    overflow: hidden;
+  }
+  
 p {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
@@ -19,15 +31,6 @@ p {
   }
   text{
     font-size: 12px;
-  }
-  
-  article{
-    overflow: hidden;
-  }
-
-  body {   
-    margin: 0;
-    background-color: lightgray;
   }
   
   button{

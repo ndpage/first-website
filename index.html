@@ -3,10 +3,7 @@
     <head> 
         <title>Bitcoin Price</title> 
         <link rel="stylesheet" type="text/css" href="style.css">
-          <!--<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> -->  
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="script.js"></script>
-
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     </head> 
 
     <body> 
@@ -32,33 +29,37 @@
     
     </body> 
 
-<script>    
-   /*
-   $('.btn').click(function() {
-  
-  $('.text').text('loading . . .');
-  
-  $.ajax({
-    type:"GET",
-    url:"https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT",
-    success: function(data) {
-      //var priceData = JSON.stringify(data)
-        $('.text').append('<p>' + data.symbol + " $" + data.price + '</p>');
-      },
-    dataType: 'json',
-  });
-  
-});
-*/
-$('.footer-text').hover(function() {
-    $('.footer-text').text("Yay!");
-});
 
-$('.footer-main').hover(function() {
-    $('.footer-text').text("This website was built by Nathan Page");
-});
+    <!--<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> -->  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script>    
+    /*
+    $('.btn').click(function() {
+    
+    $('.text').text('loading . . .');
+    
+    $.ajax({
+        type:"GET",
+        url:"https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT",
+        success: function(data) {
+        //var priceData = JSON.stringify(data)
+            $('.text').append('<p>' + data.symbol + " $" + data.price + '</p>');
+        },
+        dataType: 'json',
+    });
+    
+    });
+    */
+    $('.footer-text').hover(function() {
+        $('.footer-text').text("Yay!");
+    });
 
-</script>
+    $('.footer-main').hover(function() {
+        $('.footer-text').text("This website was built by Nathan Page");
+    });
+
+    </script>
     
 
 </html>                     
